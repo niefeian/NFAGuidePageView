@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NFAGuidePageView_Tests' do
+  pod 'NFAGuidePageView', :path => '../'
+  
+  
+end
