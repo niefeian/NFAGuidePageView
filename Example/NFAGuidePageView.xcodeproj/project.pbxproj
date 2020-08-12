@@ -15,12 +15,12 @@
 		607FACE51AFB9204008FA782 /* NFAGuidePageView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFAGuidePageView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6A8368C0A17A2BFB4EE5F860 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6A8368C0A17A2BFB4EE5F860 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7F5EB05B35BEAB8C3B41566B /* Pods-NFAGuidePageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFAGuidePageView_Tests.release.xcconfig"; path = "Target Support Files/Pods-NFAGuidePageView_Tests/Pods-NFAGuidePageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8454058797545FA0CD1B6587 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8454058797545FA0CD1B6587 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		98E042ECBB042D86458279CD /* Pods-NFAGuidePageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFAGuidePageView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NFAGuidePageView_Tests/Pods-NFAGuidePageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0ED0A281AEF524A3B0E78E2 /* Pods_NFAGuidePageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFAGuidePageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0188EA2B0D360B15810DF05 /* NFAGuidePageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NFAGuidePageView.podspec; path = ../NFAGuidePageView.podspec; sourceTree = "<group>"; };
+		F0188EA2B0D360B15810DF05 /* NFAGuidePageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NFAGuidePageView.podspec; path = ../NFAGuidePageView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,6 @@
 				98E042ECBB042D86458279CD /* Pods-NFAGuidePageView_Tests.debug.xcconfig */,
 				7F5EB05B35BEAB8C3B41566B /* Pods-NFAGuidePageView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

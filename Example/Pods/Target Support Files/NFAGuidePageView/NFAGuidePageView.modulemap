@@ -1,0 +1,6 @@
+framework module NFAGuidePageView {
+  umbrella header "NFAGuidePageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
